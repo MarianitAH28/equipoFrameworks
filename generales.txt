@@ -1,0 +1,24 @@
+https://github.com/MarianitAH28/equipoFrameworks.git
+
+creacion de repositorio local
+		echo "# equipoFrameworks" >> README.md
+		git init
+		git add README.md
+		git commit -m "first commit"
+		git remote add origin https://github.com/MarianitAH28/equipoFrameworks.git
+		git push -u origin master
+
+actualizacion del repositorio remoto
+		git add .
+		git commit -m "first commit"
+		git push -u origin master
+
+para borrar
+		git remote add origin https://github.com/MarianitAH28/equipoFrameworks.git
+		git branch -M main
+		git push -u origin main
+		
+errores de repositorios
+		git fetch origin main:tmp
+		git rebase tmp
+		git push --set-upstream origin main
