@@ -1,2 +1,1 @@
 # equipoFrameworks
-# equipoFrameworks
